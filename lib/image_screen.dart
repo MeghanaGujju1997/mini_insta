@@ -195,35 +195,6 @@ class ImageFromGalleryState extends State<ImageFromGallery> {
               SizedBox(
                 width: displayWidth(context),
                 height: displayHeight(context) / 2,
-                // child: ListView.builder(
-                //   //shrinkWrap: true,
-                //   padding: const EdgeInsets.all(8),
-                //   itemCount: _instaTags.length,
-                //   itemBuilder: (BuildContext ctx, int index) {
-                //     if (textTagController.text.isEmpty) {
-                //       return ListTile(
-                //         title: Text(
-                //           _instaTags[index],
-                //           style: const TextStyle(color: Colors.white),
-                //         ),
-                //       );
-                //     } else {
-                //       if (_instaTags[index].contains(textTagController.text)) {
-                //         return ListTile(
-                //           title: Text(
-                //             _instaTags[index],
-                //             style: const TextStyle(color: Colors.white),
-                //           ),
-                //         );
-                //       } else {
-                //         return const Text(
-                //           "",
-                //           style: TextStyle(color: Colors.white),
-                //         );
-                //       }
-                //     }
-                //   },
-                //),
                 child: SingleChildScrollView(
                   child: Column(
                     children: [
